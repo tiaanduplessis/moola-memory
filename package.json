@@ -1,6 +1,6 @@
 {
   "name": "moola-memory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express-style in-memory cache middleware",
   "license": "MIT",
   "repository": {
