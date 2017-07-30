@@ -10,6 +10,8 @@ const moolaMemory = (duration = 30) => {
 
     const value = mcache.get(key)
 
+    res.sendCached = res.send
+
     if (value) {
       res.send(value)
       return
