@@ -1,0 +1,33 @@
+{
+  "name": "moola-memory",
+  "version": "1.0.0",
+  "description": "Express-style in-memory cache middleware",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/moola-memory",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/moola-memory",
+  "bugs": "https://github.com/tiaanduplessis/moola-memory",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "prettier-standard index.js",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "pretest": "npm run lint:fix"
+  },
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^20.0.4",
+    "prettier-standard": "^6.0.0"
+  },
+  "dependencies": {
+    "memory-cache": "^0.2.0"
+  }
+}
