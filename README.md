@@ -55,6 +55,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/moola-memory.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install moola-memory
 # OR
